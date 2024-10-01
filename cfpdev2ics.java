@@ -62,14 +62,14 @@ public class cfpdev2ics implements Runnable {
         List<String> days = List.of("monday", "tuesday", "wednesday", "thursday", "friday");
 
         days.forEach(day -> {
-
+            out.printf("Getting schedule for %s\n", day);
             var schedule = devoxxCfp.getScheduleForDay(day);
-            out.printf("%s has %s events\n", day, schedule.size());
 
             for (DevoxxCfp.Event event : schedule) {
                 VEvent vevent = setupVEvent(event);
                 ical.addEvent(vevent);
             }
+            out.printf("%s has %s events\n", day, schedule.size());
 
         });
 

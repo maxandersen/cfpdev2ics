@@ -25,3 +25,8 @@ jbang cfpdev2ics.java
 ```
 
 You can use `-o otherfile.ics` to specify an alternative output file.
+
+## Ideas
+
+- Could be nice to use github action to automatically update the file when changes are detected.
+- Could add simple filters to make it easier to limit to only include your favourite talks/speakers.
