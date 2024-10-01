@@ -9,12 +9,15 @@ can be imported into your favourite calendar.
 
 The file devoxxbe-2024.ics is a .ics file containing the schedule for Devoxx Belgium 2024.
 
-You can use the following url to import into your favourite calendar app or Google Calendar: <https://raw.githubusercontent.com/maxandersen/cfpdev2ics/refs/heads/main/devoxxbe-2024.ics>
+You can generate your own or you can use the following url to import into your favourite calendar app or Google Calendar: <https://raw.githubusercontent.com/maxandersen/cfpdev2ics/refs/heads/main/devoxxbe-2024.ics>
 
-Just be warned that Google Calendar is not consistent with updates/refresh.
+> **Warning:** Just be warned that Google Calendar is not consistent with updates/refresh.
 
 I currently update it whenever I feel like it. It has stable UUIDs for each event so it should
 in theory any notes/tags you made yourself in your calendar app.
+
+![Example](example.png)
+
 
 ## How it works
 
