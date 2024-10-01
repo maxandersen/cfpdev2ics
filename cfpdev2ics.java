@@ -20,14 +20,17 @@ import static java.util.Date.from;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.TimeZone;
 import java.util.stream.Collectors;
 
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
+import org.jboss.resteasy.reactive.RestResponse;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -36,11 +39,14 @@ import biweekly.Biweekly;
 import biweekly.ICalendar;
 import biweekly.component.VEvent;
 import biweekly.io.TimezoneAssignment;
+import biweekly.io.text.ICalReader;
 import io.quarkus.jackson.ObjectMapperCustomizer;
 import jakarta.inject.Singleton;
 import jakarta.ws.rs.GET;
+import jakarta.ws.rs.HEAD;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
+import jakarta.ws.rs.core.Response;
 import picocli.CommandLine;
 
 // api docs:https://dvbe24.cfp.dev/swagger-ui/index.html
@@ -49,7 +55,7 @@ import picocli.CommandLine;
 public class cfpdev2ics implements Runnable {
 
     @CommandLine.Option(names = "-o", description = "Output file", defaultValue = "devoxxbe-2024.ics")
-    String outputFile;
+    java.nio.file.Path outputFile;
 
     @RestClient
     DevoxxCfp devoxxCfp;
@@ -57,25 +63,53 @@ public class cfpdev2ics implements Runnable {
     @Override
     public void run() {
 
+        String existingEtag = null;
+
+        Optional<ICalendar> existingCalendar = getExistingCalendar();
+
+        if(existingCalendar.isPresent()) {
+            existingEtag = existingCalendar.get().getExperimentalProperty("X-ETAG").getValue();
+        }
+
         ICalendar ical = setupCalendar();
 
         List<String> days = List.of("monday", "tuesday", "wednesday", "thursday", "friday");
 
+        List<DevoxxCfp.Event> allEvents = new ArrayList<>();
+
+
+        List<String> etags = new ArrayList<>();
+
         days.forEach(day -> {
             out.printf("Getting schedule for %s\n", day);
-            var schedule = devoxxCfp.getScheduleForDay(day);
+            var response = devoxxCfp.getScheduleForDay(day);
+            var schedule = response.getEntity();
+            allEvents.addAll(schedule);
 
-            for (DevoxxCfp.Event event : schedule) {
-                VEvent vevent = setupVEvent(event);
-                ical.addEvent(vevent);
-            }
-            out.printf("%s has %s events\n", day, schedule.size());
+            etags.add(response.getEntityTag().getValue());
+
+            out.printf("%s has %s events with etag %s\n", day, schedule.size(), response.getEntityTag().getValue());
 
         });
 
+        String combinedEtags = etags.stream().collect(Collectors.joining(":"));
+        out.printf("Combined etag: %s\n", combinedEtags);
+        out.printf("Existing etag: %s\n", existingEtag);    
+        if(combinedEtags.equals(existingEtag)) {
+            out.println("No new events, skipping update");
+            return;
+        }
+
+        ical.setExperimentalProperty("X-ETAG", etags.stream().collect(Collectors.joining(":")));
+        
+        for (DevoxxCfp.Event event : allEvents) {
+            VEvent vevent = setupVEvent(event);
+            ical.addEvent(vevent);
+        }
+
         try {
                 out.printf("Writing to %s\n", outputFile);
-                Files.writeString(Paths.get(outputFile), Biweekly.write(ical).go());
+                Files.writeString(outputFile, Biweekly.write(ical).go());
         } catch (IOException e) {
             throw new IllegalStateException("Failed to write ical to file", e);
         }
@@ -104,6 +138,21 @@ public class cfpdev2ics implements Runnable {
         vevent.setLocation(fullLocation(event));
         vevent.setDescription(fullDescription(event));
         return vevent;
+    }
+
+    Optional<ICalendar> getExistingCalendar() {
+        if(Files.exists(outputFile)) {
+            try (var reader = new ICalReader(outputFile.toFile())) {
+                return Optional.of(reader.readNext());
+            } catch (IOException e) {
+                System.err.println("Failed to read existing calendar: %s".formatted(e.getMessage()));
+                return Optional.empty();
+            }
+            
+        } else {
+            return Optional.empty();
+        }
+
     }
 
     private ICalendar setupCalendar() {
@@ -204,21 +253,10 @@ public class cfpdev2ics implements Runnable {
     @RegisterRestClient(configKey = "devoxxcfp")
     public interface DevoxxCfp {
 
-        @GET()
-        @Path("/public/schedules")
-        ScheduleLinks getSchedules();
-
         @GET
         @Path("/public/schedules/{day}")
-        List<Event> getScheduleForDay(@PathParam("day") String day);
-
+        RestResponse<List<Event>> getScheduleForDay(@PathParam("day") String day);
         // https://dvbe24.cfp.dev/swagger-ui/index.html
-
-        public record ScheduleLinks(List<ScheduleLink> links) {
-        }
-
-        public record ScheduleLink(String href, String title) {
-        }
 
         public record Event(
                 int id,

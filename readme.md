@@ -18,7 +18,6 @@ in theory any notes/tags you made yourself in your calendar app.
 
 ![Example](example.png)
 
-
 ## How it works
 
 Run the following command to generate the .ics file:
