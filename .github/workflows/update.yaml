@@ -17,7 +17,7 @@ jobs:
     permissions:
       contents: write
     
-      steps:
+    steps:
       # Checkout the repository to access files
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -37,6 +37,7 @@ jobs:
 
       # Check if the .ics file was updated
       - name: Check for changes in .ics file
+        if: always()
         run: |
           git config --global user.name 'Max Rydahl Andersen'
           git config --global user.email 'max@xam.dk'
