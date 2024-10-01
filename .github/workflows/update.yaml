@@ -14,8 +14,10 @@ on:
 jobs:
   run-jbang:
     runs-on: ubuntu-latest
-
-    steps:
+    permissions:
+      contents: write
+    
+      steps:
       # Checkout the repository to access files
       - name: Checkout repository
         uses: actions/checkout@v3
