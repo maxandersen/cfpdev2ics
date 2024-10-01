@@ -37,7 +37,7 @@ jobs:
 
       # Check if the .ics file was updated
       - name: Check for changes in .ics file
-        if: always()
+        continue-on-error: true
         run: |
           git config --global user.name 'Max Rydahl Andersen'
           git config --global user.email 'max@xam.dk'
