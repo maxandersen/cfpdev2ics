@@ -57,6 +57,11 @@ public class cfpdev2ics implements Runnable {
     @CommandLine.Option(names = "-o", description = "Output file", defaultValue = "devoxxbe-2024.ics")
     java.nio.file.Path outputFile;
 
+
+    @CommandLine.Option(names ={"-f", "--force"}, description = "Force update", defaultValue = "false")
+    boolean force;
+
+    
     @RestClient
     DevoxxCfp devoxxCfp;
 
@@ -94,8 +99,10 @@ public class cfpdev2ics implements Runnable {
 
         String combinedEtags = etags.stream().collect(Collectors.joining(":"));
         out.printf("Combined etag: %s\n", combinedEtags);
-        out.printf("Existing etag: %s\n", existingEtag);    
-        if(combinedEtags.equals(existingEtag)) {
+        out.printf("Existing etag: %s\n", existingEtag);
+        if(force) {
+            out.println("Force update, skipping etag check");
+        } else if(combinedEtags.equals(existingEtag)) {
             out.println("No new events, skipping update");
             return;
         }
