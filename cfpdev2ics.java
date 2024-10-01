@@ -3,157 +3,86 @@
 //JAVA 17+
 //JAVAC_OPTIONS -parameters
 
-//SOURCES DevoxxCfp.java
-
-
+// SOURCES DevoxxCfp.java
 // Update the Quarkus version to what you want here or run jbang with
 // `-Dquarkus.version=<version>` to override it.
 //DEPS io.quarkus:quarkus-bom:${quarkus.version:3.15.1}@pom
 //DEPS io.quarkus:quarkus-rest-client
 //DEPS io.quarkus:quarkus-rest-client-jackson
 //DEPS io.quarkus:quarkus-picocli
-//DEPS com.google.api-client:google-api-client:1.23.0
-//DEPS com.google.oauth-client:google-oauth-client-jetty:1.23.0
-//DEPS com.google.apis:google-api-services-calendar:v3-rev305-1.23.0
 
+//DEPS net.sf.biweekly:biweekly:0.6.8
 
 //Q:CONFIG quarkus.banner.enabled=false
 //Q:CONFIG quarkus.log.level=WARN
 //Q:CONFIG quarkus.rest-client.devoxxcfp.url=https://dvbe24.cfp.dev
 import static java.lang.System.out;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.security.GeneralSecurityException;
-import java.util.Collections;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.time.ZonedDateTime;
+import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.TimeZone;
+import java.util.stream.Collectors;
 
+import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.api.client.auth.oauth2.Credential;
-import com.google.api.client.extensions.java6.auth.oauth2.AuthorizationCodeInstalledApp;
-import com.google.api.client.extensions.jetty.auth.oauth2.LocalServerReceiver;
-import com.google.api.client.googleapis.auth.oauth2.GoogleAuthorizationCodeFlow;
-import com.google.api.client.googleapis.auth.oauth2.GoogleClientSecrets;
-import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
-import com.google.api.client.http.HttpRequest;
-import com.google.api.client.http.HttpRequestInitializer;
-import com.google.api.client.http.javanet.NetHttpTransport;
-import com.google.api.client.json.JsonFactory;
-import com.google.api.client.json.jackson2.JacksonFactory;
-import com.google.api.client.util.DateTime;
-import com.google.api.client.util.store.FileDataStoreFactory;
-import com.google.api.services.calendar.Calendar;
-import com.google.api.services.calendar.CalendarScopes;
-import com.google.api.services.calendar.model.CalendarListEntry;
-import com.google.api.services.calendar.model.Event;
-import com.google.api.services.calendar.model.EventDateTime;
-import com.google.api.services.calendar.model.Events;
 
+import biweekly.Biweekly;
+import biweekly.ICalendar;
+import biweekly.component.VEvent;
+import biweekly.io.TimezoneAssignment;
 import io.quarkus.jackson.ObjectMapperCustomizer;
 import jakarta.inject.Singleton;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.Path;
+import jakarta.ws.rs.PathParam;
 import picocli.CommandLine;
-import picocli.CommandLine.Option;
 
 // https://dvbe24.cfp.dev/swagger-ui/index.html
 
 @CommandLine.Command
 public class cfpdev2ics implements Runnable {
 
-    static final String APPLICATION_NAME = "cfpdev2ics";
-
-    static final JsonFactory JSON_FACTORY = JacksonFactory.getDefaultInstance();
-
-    static final String TOKENS_DIRECTORY_PATH = "tokens";
-
-    @Option(names = { "--credentials" }, defaultValue = "credentials.json", description = "path to credentials")
-    private File credentials;
-
-    @Option(names = { "-c" }, defaultValue = "devoxxbe2024", description = "which calendar to use")
-    private String calendar;
-
-    private static final List<String> SCOPES = Collections.singletonList(CalendarScopes.CALENDAR);
-
-    private Credential getCredentials(final NetHttpTransport HTTP_TRANSPORT) throws IOException {
-        // Load client secrets.
-        var in = new FileInputStream(credentials);
-
-        var clientSecrets = GoogleClientSecrets.load(JSON_FACTORY, new InputStreamReader(in));
-
-        // Build flow and trigger user authorization request.
-        var flow = new GoogleAuthorizationCodeFlow.Builder(
-                HTTP_TRANSPORT, JSON_FACTORY, clientSecrets, SCOPES)
-                .setDataStoreFactory(new FileDataStoreFactory(new java.io.File(TOKENS_DIRECTORY_PATH)))
-                .setAccessType("offline")
-                .build();
-        var receiver = new LocalServerReceiver.Builder().setPort(8765).build();
-        return new AuthorizationCodeInstalledApp(flow, receiver).authorize("user");
-    }
-
-
-    Calendar buildCalendarService() {
-        Calendar service = null;
-        try {
-
-            // Build a new authorized API client service.
-            final NetHttpTransport HTTP_TRANSPORT = GoogleNetHttpTransport.newTrustedTransport();
-            service = new Calendar.Builder(HTTP_TRANSPORT, JSON_FACTORY, getCredentials(HTTP_TRANSPORT))
-                    .setApplicationName(APPLICATION_NAME)
-                    .build();
-        } catch (GeneralSecurityException | IOException fe) {
-            throw new IllegalStateException(
-                    """
-                    You are missing credentials for accessing Google API's.
-                    Do the following:
-                        1. Go to https://developers.google.com/calendar/quickstart/java
-                        2. click 'Enable the Google Calendar API' 
-                        3. Download credentials.json and put it in current working directory.
-                        4. run it again
-                    """,
-                    fe);
-        }
-        return service;
-    }
-
-    
+    @CommandLine.Option(names = "-o", description = "Output file", defaultValue = "devoxxbe-2024.ics")
+    String outputFile;
 
     @RestClient
     DevoxxCfp devoxxCfp;
 
-    
-
     @Override
     public void run() {
 
-        
-        
-        List<String> days = List.of("monday");//, "tuesday", "wednesday", "thursday", "friday");
+        ICalendar ical = setupCalendar();
+
+        List<String> days = List.of("monday", "tuesday", "wednesday", "thursday", "friday");
 
         days.forEach(day -> {
 
             var schedule = devoxxCfp.getScheduleForDay(day);
-
             out.printf("%s has %s events\n", day, schedule.size());
+
+            for (DevoxxCfp.Event event : schedule) {
+                VEvent vevent = setupVEvent(event);
+                ical.addEvent(vevent);
+            }
+
         });
 
-        Calendar calendarService = buildCalendarService();
+        try {
+                out.printf("Writing to %s\n", outputFile);
+                Files.writeString(Paths.get(outputFile), Biweekly.write(ical).go());
+        } catch (IOException e) {
+            throw new IllegalStateException("Failed to write ical to file", e);
+        }
         
-        var devoxxcall = getDevoxxcall(calendarService);
-
-        out.println("Devoxx Belgium 2024 calendar id: " + devoxxcall.getId());
-
-        deleteEvents(calendarService, devoxxcall);
-
-        days.forEach(day -> {
-
-            var schedule = devoxxCfp.getScheduleForDay(day);
-
-            addEvents(schedule, calendarService, devoxxcall);
-        });
     }
 
     @Singleton
@@ -166,77 +95,210 @@ public class cfpdev2ics implements Runnable {
         }
     }
 
-    private void addEvents(List<DevoxxCfp.Event> devents, Calendar service, CalendarListEntry devoxxcall) {
-        for (DevoxxCfp.Event event : devents) {
-            out.println("adding " + event.id() + " " + (event.proposal() != null ? event.proposal().title() : event.eventName()));
-            try {
-                service.events().insert(devoxxcall.getId(), new Event()
-                        .setSummary(event.fullTitle())
-                        .setLocation(event.fullLocation())
-                        
-                        .setDescription(event.fullDescription())
-                        .setStart(new EventDateTime()
-                                .setDateTime(new DateTime(event.fromDate()))
-                                .setTimeZone("Europe/Brussels"))
-                        .setEnd(new EventDateTime()
-                                .setDateTime(new DateTime(event.toDate()))
-                                .setTimeZone("Europe/Brussels"))
-                       // .setStart(new EventDateTime()
-                      //          .setDateTime(event.get new DateTime(event.date() + "T" + event.start() + ":00+02:00"))
-                       //         .setTimeZone("Europe/Brussels"))
-                      //  .setEnd(new EventDateTime()
-                       //         .setDateTime(new DateTime(event.date() + "T" + event.finish() + ":00+02:00"))
-                       //         .setTimeZone("Europe/Brussels"))
-                       )
-                        .execute();
-            } catch (IOException e) {
-                throw new IllegalStateException("Error adding event " + event, e);
-            }   
+    
+    private VEvent setupVEvent(DevoxxCfp.Event event) {
+        VEvent vevent = new VEvent();
+        vevent.setUid(event.id() + "-" + slug(event) + "@cfp.dev"); // a stable unique id
+        vevent.setSummary(fullTitle(event));
+
+        var startDate = Date.from(ZonedDateTime.parse(event.fromDate()).toInstant());
+        vevent.setDateStart(startDate);
+
+        var endDate = Date.from(ZonedDateTime.parse(event.toDate()).toInstant());
+        vevent.setDateEnd(endDate);
+
+        vevent.setLocation(fullLocation(event));
+        vevent.setDescription(fullDescription(event));
+        return vevent;
+    }
+
+    private ICalendar setupCalendar() {
+        ICalendar ical = new ICalendar();
+        ical.setProductId("-//cfp2dev2ics 1.0//EN");
+
+        TimeZone javaTz = TimeZone.getTimeZone("Europe/Brussels");
+        TimezoneAssignment brussels = TimezoneAssignment.download(javaTz, false);
+
+        ical.getTimezoneInfo().setDefaultTimezone(brussels);
+        return ical;
+    }
+
+    public static final Map<String, String> styleIcons = new HashMap<>() {
+        {
+            put("Afterparty", "\uD83C\uDF89"); // 🎉
+            put("BOF", "\uD83D\uDCAC"); // 💬
+            put("Break", "\uD83D\uDE34"); // 😴
+            put("Breakfast & Exhibition opens", "\uD83C\uDF73"); // 🍳
+            put("Breakfast", "\uD83C\uDF73"); // 🍳
+            put("Closing Keynote", "\uD83D\uDCAC"); // 💬
+            put("Coffee Break", "\u2615"); // ☕
+            put("Conference", "\uD83D\uDCCB"); // 📋
+            put("Deep Dive", "\uD83D\uDD0D"); // 🔍
+            put("Hands-On Lab", "\uD83D\uDCBB"); // 💻
+            put("Hands-on Lab", "\uD83D\uDCBB"); // 💻
+            put("Keynote", "\uD83D\uDCAC"); // 💬
+            put("Lunch Talk", "\uD83C\uDF74"); // 🍴
+            put("Lunch", "\uD83C\uDF74"); // 🍴
+            put("Meet & Greet in exhibition floor until 20h00", "\uD83D\uDC6B"); // 👫
+            put("Meet and Greet", "\uD83D\uDC6B"); // 👫
+            put("Movie", "\uD83C\uDFAC"); // 🎬
+            put("Registration & Breakfast", "\uD83C\uDF73"); // 🍳
+            put("Safe travels home", "\uD83D\uDEEB"); // 🛫
+            put("Tools-in-Action", "\uD83D\uDEE0"); // 🛠
+        }
+    };
+
+    String fullTitle(DevoxxCfp.Event event) {
+        if (event.proposal() == null) {
+            return String.format("%s: %s", styleIcons.get(event.sessionType().name()), event.eventName());
+        } else {
+            return String.format("%s: %s", styleIcons.get(event.sessionType().name()), event.proposal().title());
         }
     }
 
-    private void deleteEvents(Calendar service, CalendarListEntry devoxxcall) {
-        // Fetch the current date
-        DateTime now = new DateTime(System.currentTimeMillis());
-        // delete the events from the devoxx calendar.
-        Events events;
-        try {
-            events = service.events().list(devoxxcall.getId())
-                   // .setMaxResults(1000)
-                    .setTimeMin(now)
-                    .setOrderBy("startTime")
-                    .setSingleEvents(true)
-                    .execute();
-        
-        List<Event> items = events.getItems();
-        for (Event event : items) {
-            try {
-                out.println("\uD83D\uDC80 deleting " + event.getSummary());
-                
-                service.events().delete(devoxxcall.getId(), event.getId()).execute();
-            } catch (IOException e1) {
-                out.println(e1);
-            }  
-        }
-    } catch (IOException e) {
-       throw new IllegalStateException("Error deleting events", e);
-    }
-    }
-
-    private CalendarListEntry getDevoxxcall(Calendar service) {
-        try {
-            return service.calendarList()
-                    .list()
-                    .execute()
-                    .getItems()
-                    .stream()
-                    .filter(calendarListEntry -> calendar.equals(calendarListEntry.getSummary()))
-                    .findFirst()
-                    .orElseThrow(() -> new IllegalArgumentException("Calendar not found"));
-        } catch (IllegalArgumentException | IOException e) {
-            throw new IllegalStateException("Calendar " + calendar + " not found", e);
+    String fullLocation(DevoxxCfp.Event event) {
+        if (event.proposal() == null || event.proposal().speakers() == null) {
+            return event.room().name();
+        } else {
+            return String.format("%s (%s) [%s]",
+                    event.room().name(),
+                    event.proposal().speakers().stream().map(DevoxxCfp.Speaker::fullName)
+                            .collect(Collectors.joining(", ")),
+                    event.proposal().totalFavourites());
         }
     }
 
-   
+    String slug(DevoxxCfp.Event event) {
+        return event.proposal() == null ? null
+                : event.proposal().title().toLowerCase().replaceAll("[^a-z0-9]+", "-").replaceAll("^-+", "")
+                        .replaceAll("-+$", "");
+    }
+
+    String link(DevoxxCfp.Event event) {
+        // didn't locate where this is in the rest api so handcrafting it.
+        // turn "Back to the 80s - NES Assembly programming" into
+        // "back-to-the-80s---nes-assembly-programming"
+        return "https://devoxx.be/talk/" + slug(event);
+    }
+
+    String fullDescription(DevoxxCfp.Event event) {
+        if (event.proposal() == null) {
+            return "";
+        } else {
+            return "<a href=\"%s\">%s - %s - %s</a><br><br>%s<br><br>Speakers:<br>%s<br><br>Favourites:<br>%s<br><br>Keywords:<br>%s<br>"
+                    .formatted(
+                            link(event),
+                            event.sessionType().name(),
+                            event.proposal().track().name(),
+                            event.proposal().audienceLevel(),
+                            event.proposal().description(),
+                            event.proposal().speakers().stream().map(DevoxxCfp.Speaker::fullName)
+                                    .collect(Collectors.joining("<br>")),
+                            event.proposal().totalFavourites(),
+                            event.proposal().keywords().stream().map(DevoxxCfp.Keyword::name)
+                                    .collect(Collectors.joining("<br>")),
+                            link(event));
+        }
+    }
+
+    @Path("/api")
+    @RegisterRestClient(configKey = "devoxxcfp")
+    public interface DevoxxCfp {
+
+        @GET()
+        @Path("/public/schedules")
+        ScheduleLinks getSchedules();
+
+        @GET
+        @Path("/public/schedules/{day}")
+        List<Event> getScheduleForDay(@PathParam("day") String day);
+
+        // https://dvbe24.cfp.dev/swagger-ui/index.html
+
+        public record ScheduleLinks(List<ScheduleLink> links) {
+        }
+
+        public record ScheduleLink(String href, String title) {
+        }
+
+        public record Event(
+                int id,
+                String fromDate,
+                String toDate,
+                boolean overflow,
+                boolean reserved,
+                String remark,
+                int eventId,
+                String eventName,
+                Room room,
+                String streamId,
+                SessionType sessionType,
+                String track,
+                Proposal proposal,
+                String audienceLevel,
+                String langName,
+                String timezone,
+                List<Speaker> speakers,
+                List<String> tags,
+                int totalFavourites) {
+        }
+
+        public record Room(
+                int id,
+                String name,
+                int weight,
+                int capacity) {
+        }
+
+        public record SessionType(
+                int id,
+                String name,
+                int duration,
+                boolean pause,
+                String description,
+                String cssColor) {
+        }
+
+        public record Proposal(
+                int id,
+                String title,
+                String description,
+                String summary,
+                String afterVideoURL,
+                String podcastURL,
+                String audienceLevel,
+                String language,
+                int totalFavourites,
+                Track track,
+                SessionType sessionType,
+                List<Speaker> speakers,
+                List<Keyword> keywords,
+                List<String> timeSlots) {
+        }
+
+        public record Track(
+                int id,
+                String name,
+                String description,
+                String imageURL) {
+        }
+
+        public record Speaker(
+                int id,
+                String firstName,
+                String lastName,
+                String fullName,
+                String bio,
+                String anonymizedBio,
+                String company,
+                String imageUrl,
+                String twitterHandle,
+                String linkedInUsername) {
+        }
+
+        public record Keyword(
+                String name) {
+        }
+
+    }
 }
