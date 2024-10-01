@@ -158,7 +158,7 @@ RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3101-null@cfp.dev
 SUMMARY:🍳: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241007T083000
@@ -167,7 +167,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3103-the-road-to-gradle-9@cfp.dev
 SUMMARY:🔍: The road to Gradle 9
 DTSTART;TZID=Europe/Brussels:20241007T093000
@@ -196,7 +196,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/the-road-to-gradle-9">Deep Dive
  ty<br>Gradle Build Tool<br>Comprehensibility<br>Plugin Ecosystem<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3102-spring-boot-testing-zero-to-hero@cfp.dev
 SUMMARY:🔍: Spring Boot testing: Zero to Hero
 DTSTART;TZID=Europe/Brussels:20241007T093000
@@ -227,7 +227,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/spring-boot-testing-zero-to-her
  t<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3106-the-science-of-signals-mastering-telemetry-for-observability@cfp.d
  ev
 SUMMARY:🔍: The Science of Signals: Mastering Telemetry for Observability
@@ -254,7 +254,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/the-science-of-signals-masterin
  <br>OpenTelemetry<br>Instrumentation<br>Telemetry signals<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3107-java-23-better-language-better-apis-better-runtime@cfp.dev
 SUMMARY:🔍: Java 23 - Better Language\, Better APIs\, Better Runtime
 DTSTART;TZID=Europe/Brussels:20241007T093000
@@ -273,7 +273,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/java-23-better-language-better-
  ports<br>API<br>Java 21<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3104-developing-cloud-native-java-ai-applications-with-djl-and-langchai
  n4j@cfp.dev
 SUMMARY:🔍: Developing Cloud-Native Java AI applications with DJL and LangC
@@ -305,7 +305,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/developing-cloud-native-java-ai
  yment<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3109-transforming-code-with-openrewrite-and-refaster@cfp.dev
 SUMMARY:💻: Transforming Code with OpenRewrite and Refaster
 DTSTART;TZID=Europe/Brussels:20241007T093000
@@ -334,7 +334,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/transforming-code-with-openrewr
  br>Modernize Codebase<br>Code Quality<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3108-building-server-side-web-applications-with-htmx-and-spring@cfp.dev
 SUMMARY:💻: Building server-side web applications with htmx and Spring
 DTSTART;TZID=Europe/Brussels:20241007T093000
@@ -353,7 +353,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/building-server-side-web-applic
  <br>JSON API<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3110-null@cfp.dev
 SUMMARY:🍴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241007T123000
@@ -362,7 +362,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:23856-architecting-a-sustainable-future@cfp.dev
 SUMMARY:🍴: Architecting a Sustainable Future
 DTSTART;TZID=Europe/Brussels:20241007T123500
@@ -387,7 +387,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/architecting-a-sustainable-futu
  Usage<br>Sustainability<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:23860-a-developer-s-tale-migrating-an-angular-app-from-version-10-to-18
  @cfp.dev
 SUMMARY:🍴: A Developer's Tale: Migrating an Angular app from version 10 to 
@@ -419,7 +419,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/a-developer-s-tale-migrating-an
  ular 17<br>Application Upgrade<br>Migration Strategies<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:23857-project-leyden-quarkus@cfp.dev
 SUMMARY:🍴: Project Leyden & Quarkus
 DTSTART;TZID=Europe/Brussels:20241007T123500
@@ -440,7 +440,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/project-leyden-quarkus">Lunch T
  uarkus<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:23858-enhancing-productivity-and-insight-a-tour-of-jdk-tools-progress-b
  eyond-java-17@cfp.dev
 SUMMARY:🍴: Enhancing Productivity and Insight: A Tour of JDK Tools Progres
@@ -461,7 +461,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/enhancing-productivity-and-insi
  t Recorder<br>JDK tools<br>Java 17<br>Java Developers<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3111-from-naive-to-advanced-rag-the-complete-guide@cfp.dev
 SUMMARY:🔍: From naive to advanced RAG: the complete guide
 DTSTART;TZID=Europe/Brussels:20241007T133000
@@ -488,7 +488,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/from-naive-to-advanced-rag-the-
  eneration<br>Semantic chunking<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3113-java-s-concurrency-journey-continues-exploring-structured-concurre
  ncy-and-scoped-values@cfp.dev
 SUMMARY:🔍: Java's Concurrency Journey Continues! Exploring Structured Conc
@@ -519,7 +519,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/java-s-concurrency-journey-cont
  ed Concurrency<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3116-micro-benchmarking-the-art-of-realizing-one-is-wrong@cfp.dev
 SUMMARY:🔍: Micro Benchmarking - The Art of Realizing One is Wrong
 DTSTART;TZID=Europe/Brussels:20241007T133000
@@ -547,7 +547,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/micro-benchmarking-the-art-of-r
  rks<br>JVM<br>JMH<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3112-escape-from-the-planet-of-the-collections@cfp.dev
 SUMMARY:🔍: Escape from the Planet of the Collections
 DTSTART;TZID=Europe/Brussels:20241007T133000
@@ -580,7 +580,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/escape-from-the-planet-of-the-c
  gramming<br>Java Collections Framework<br>Shared Abstractions<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3115-wait-no-more-here-comes-maven-4@cfp.dev
 SUMMARY:🔍: Wait no more\, here comes Maven 4!
 DTSTART;TZID=Europe/Brussels:20241007T133000
@@ -605,7 +605,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/wait-no-more-here-comes-maven-4
  Beta releases<br>Maven 4<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3118-back-to-the-80s-nes-assembly-programming@cfp.dev
 SUMMARY:💻: Back to the 80s - NES Assembly programming
 DTSTART;TZID=Europe/Brussels:20241007T133000
@@ -625,7 +625,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/back-to-the-80s-nes-assembly-pr
  ology<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3117-opentelemetry-hands-on@cfp.dev
 SUMMARY:💻: OpenTelemetry Hands-On
 DTSTART;TZID=Europe/Brussels:20241007T133000
@@ -647,7 +647,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/opentelemetry-hands-on">Hands-o
  Microservice<br>Instrumentation<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3119-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241007T163000
@@ -656,7 +656,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3121-synthetic-monitoring-and-e2e-testing-2-sides-of-the-same-coin@cfp.
  dev
 SUMMARY:🛠: Synthetic Monitoring and E2E Testing: 2 Sides of the Same Coin
@@ -680,7 +680,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/synthetic-monitoring-and-e2e-te
  c Monitoring<br>e2e Testing<br>DevOps<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3124-tabby-my-free-copilot@cfp.dev
 SUMMARY:🛠: Tabby\, my free "Copilot"
 DTSTART;TZID=Europe/Brussels:20241007T165000
@@ -710,7 +710,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/tabby-my-free-copilot">Tools-in
  r>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3120-run-your-favorite-games-everywhere-with-wasm-the-blazordoom-use-ca
  se@cfp.dev
 SUMMARY:🛠: Run your favorite games everywhere with WASM: the BlazorDoom us
@@ -736,7 +736,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/run-your-favorite-games-everywh
  r><br>Keywords:<br>.Net<br>Doom game<br>Web Assembly (WASM)<br>Porting<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3122-atomicity-and-consistency-across-databases-and-messaging-systems@c
  fp.dev
 SUMMARY:🛠: Atomicity and Consistency Across Databases and Messaging System
@@ -762,7 +762,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/atomicity-and-consistency-acros
  ional Consistency<br>Messaging Activities<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3123-bring-the-action-using-graalvm-in-production@cfp.dev
 SUMMARY:🛠: Bring the action: using GraalVM in production
 DTSTART;TZID=Europe/Brussels:20241007T165000
@@ -785,7 +785,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/bring-the-action-using-graalvm-
  r>Keywords:<br>Migration<br>GraalVM<br>Java Applications<br>Monitoring<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3139-batch-processing-at-scale-a-hands-on-jobrunr-workshop-with-experim
  ents-on-raspberry-pi@cfp.dev
 SUMMARY:💻: Batch Processing at Scale: a hands-on JobRunr workshop with exp
@@ -825,7 +825,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/batch-processing-at-scale-a-han
  br>Distributed job scheduling<br>Java<br>Mainframe migration<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3138-squeezing-performance-out-of-quarkus@cfp.dev
 SUMMARY:💻: Squeezing Performance out of Quarkus
 DTSTART;TZID=Europe/Brussels:20241007T165000
@@ -848,7 +848,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/squeezing-performance-out-of-qu
  br>Backend development<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3125-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241007T172000
@@ -857,7 +857,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3130-easy-rag-with-langchain4j-and-docker@cfp.dev
 SUMMARY:🛠: Easy RAG with LangChain4J and Docker
 DTSTART;TZID=Europe/Brussels:20241007T173500
@@ -877,7 +877,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/easy-rag-with-langchain4j-and-d
  r>33<br><br>Keywords:<br>Docker<br>Phi-3<br>Langchain4j<br>RAG pattern<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3129-falling-in-love-with-json-net@cfp.dev
 SUMMARY:🛠: Falling in love with json(net)
 DTSTART;TZID=Europe/Brussels:20241007T173500
@@ -899,7 +899,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/falling-in-love-with-json-net">
  s:<br>JSON<br>Jsonnet<br>Kubernetes<br>Infrastructure as Code<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3127-javaflame-capture-function-arguments-visualize-them-in-a-flamegrap
  h@cfp.dev
 SUMMARY:🛠: Javaflame - Capture function arguments\, visualize them in a fl
@@ -917,7 +917,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/javaflame-capture-function-argu
  flame<br>Agent<br>Flamegraph<br>Debugging<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3128-podman-ai-lab-for-developers-to-build-ai-applications-with-llms-ru
  nning-locally@cfp.dev
 SUMMARY:🛠: Podman AI Lab: For developers to build AI Applications with LLM
@@ -939,7 +939,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/podman-ai-lab-for-developers-to
  r>Playground Environments<br>AI Applications<br>Podman AI Lab<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3131-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241007T180500
@@ -948,7 +948,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3134-build-an-agentic-rag-system-using-langchain-ollama-and-milvus@cfp.
  dev
 SUMMARY:🛠: Build an Agentic RAG system using Langchain\, Ollama and Milvus
@@ -974,7 +974,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/build-an-agentic-rag-system-usi
  -reflection<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3132-meet-chicory-exploit-the-power-of-webassembly-on-the-server-side@c
  fp.dev
 SUMMARY:🛠: Meet Chicory\, exploit the power of WebAssembly on the server s
@@ -1007,7 +1007,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/meet-chicory-exploit-the-power-
  r>Keywords:<br>WebAssembly<br>JVM Ecosystem<br>wazero<br>Chicory<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3133-datafaker-the-most-powerful-fake-data-generator-library@cfp.dev
 SUMMARY:🛠: Datafaker: the most powerful fake data generator library
 DTSTART;TZID=Europe/Brussels:20241007T182000
@@ -1036,7 +1036,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/datafaker-the-most-powerful-fak
  >Data Diversity<br>Data Generators<br>Software Testing<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3135-find-and-fix-performance-issues-in-your-code-usign-digma@cfp.dev
 SUMMARY:🛠: Find and fix performance issues in your code usign Digma
 DTSTART;TZID=Europe/Brussels:20241007T182000
@@ -1060,7 +1060,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/find-and-fix-performance-issues
  ervability<br>IDE plugin<br>Performance issues<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3140-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241007T185000
@@ -1069,7 +1069,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3141-10-years-of-devoxx4kids@cfp.dev
 SUMMARY:💬: 10 Years of Devoxx4Kids
 DTSTART;TZID=Europe/Brussels:20241007T190500
@@ -1086,7 +1086,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/10-years-of-devoxx4kids">BOF -
  ords:<br>Devoxx4Kids<br>Global Children Education<br>Future<br>Belgium<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002206Z
+DTSTAMP:20241001T002548Z
 UID:3142-apache-maven-bof@cfp.dev
 SUMMARY:💬: Apache Maven BOF
 DTSTART;TZID=Europe/Brussels:20241007T190500
@@ -1104,7 +1104,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/apache-maven-bof">BOF - Build &
  al Issues<br>Upcoming Release<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3143-null@cfp.dev
 SUMMARY:🍳: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241008T083000
@@ -1113,7 +1113,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3146-measure-don-t-guess-benchmarking-stories-from-the-trenches@cfp.dev
 SUMMARY:🔍: Measure\, don’t guess: benchmarking stories from the trenches
 DTSTART;TZID=Europe/Brussels:20241008T093000
@@ -1140,7 +1140,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/measure-don-t-guess-benchmarkin
  rmance Improvement<br>JMH Tool<br>Benchmarking<br>Interpreting Results<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3144-bootiful-spring-boot-3-x@cfp.dev
 SUMMARY:🔍: Bootiful Spring Boot 3.x
 DTSTART;TZID=Europe/Brussels:20241008T093000
@@ -1160,7 +1160,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/bootiful-spring-boot-3-x">Deep
  br><br>Keywords:<br>Spring Boot<br>GraalVM<br>Project Loom<br>Java 21<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3145-memory-api-patterns-uses-cases-and-performance@cfp.dev
 SUMMARY:🔍: Memory API: Patterns\, Uses Cases\, and Performance
 DTSTART;TZID=Europe/Brussels:20241008T093000
@@ -1189,7 +1189,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/memory-api-patterns-uses-cases-
  va<br>MemorySegments<br>Off-heap memory<br>VarHandle<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3147-design-patterns-revisited-in-modern-java@cfp.dev
 SUMMARY:🔍: Design Patterns Revisited in Modern Java
 DTSTART;TZID=Europe/Brussels:20241008T093000
@@ -1202,7 +1202,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/design-patterns-revisited-in-mo
  :<br>Patterns<br>Java<br>Modern<br>Design<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3148-java-meets-ai-build-llm-powered-apps-with-langchain4j@cfp.dev
 SUMMARY:🔍: Java meets AI: Build LLM-Powered Apps with LangChain4j
 DTSTART;TZID=Europe/Brussels:20241008T093000
@@ -1230,7 +1230,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/java-meets-ai-build-llm-powered
  r>Langchain4j<br>Quarkus<br>LLM<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3150-build-your-own-enterprise-chatgpt-with-open-source@cfp.dev
 SUMMARY:💻: Build your own enterprise ChatGPT with Open Source
 DTSTART;TZID=Europe/Brussels:20241008T093000
@@ -1264,7 +1264,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/build-your-own-enterprise-chatg
  ge Language Models<br>Cloud Deployment<br>AI Technologies<br>Chatbot<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3149-testing-and-debugging-openjdk@cfp.dev
 SUMMARY:💻: Testing and Debugging OpenJDK
 DTSTART;TZID=Europe/Brussels:20241008T093000
@@ -1292,7 +1292,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/testing-and-debugging-openjdk">
  rds:<br>Syntax Updates<br>JTreg<br>OpenJDK<br>Compiler<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3201-null@cfp.dev
 SUMMARY:🍴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241008T123000
@@ -1301,7 +1301,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:23853-concurrency-in-spring-boot-applications-making-the-right-choice@c
  fp.dev
 SUMMARY:🍴: Concurrency in Spring Boot Applications: Making the Right Choic
@@ -1328,7 +1328,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/concurrency-in-spring-boot-appl
  ing<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:23851-wat-that-s-possible-in-java@cfp.dev
 SUMMARY:🍴: Wat? That’s possible in Java?
 DTSTART;TZID=Europe/Brussels:20241008T124000
@@ -1347,7 +1347,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/wat-that-s-possible-in-java">Lu
  words:<br>Java<br>JavaScript<br>Lightning Talk<br>Ruby<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:23854-from-monolith-to-multi-services-how-a-platform-engineering-approa
  ch-transforms-your-business@cfp.dev
 SUMMARY:🍴: From monolith to multi-services\, how a platform engineering ap
@@ -1377,7 +1377,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/from-monolith-to-multi-services
  ering<br>Doctolib<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:23855-developer-experience-from-hype-to-reality@cfp.dev
 SUMMARY:🍴: Developer Experience : From Hype to Reality
 DTSTART;TZID=Europe/Brussels:20241008T124000
@@ -1408,7 +1408,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/developer-experience-from-hype-
  perience<br>Platform Engineering<br>Artificial Intelligence<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3203-pushing-java-to-the-limits-processing-a-billion-rows-in-under-2-se
  conds@cfp.dev
 SUMMARY:🔍: Pushing Java to the Limits: Processing a Billion Rows in under 
@@ -1432,7 +1432,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/pushing-java-to-the-limits-proc
  <br>Keywords:<br>sun.misc.Unsafe<br>Graal<br>Parallelism<br>Java<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3202-10-truths-in-distributed-system-design@cfp.dev
 SUMMARY:🔍: 10 Truths in Distributed System Design
 DTSTART;TZID=Europe/Brussels:20241008T133000
@@ -1451,7 +1451,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/10-truths-in-distributed-system
  eywords:<br>TBA<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3206-bringing-genai-to-the-modern-enterprise-a-production-use-case-in-s
  erverless-java@cfp.dev
 SUMMARY:🔍: Bringing GenAI to the Modern Enterprise. A production use-case. 
@@ -1489,7 +1489,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/bringing-genai-to-the-modern-en
  n Frameworks<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3205-cruising-along-with-java-benefiting-from-the-modern-features@cfp.d
  ev
 SUMMARY:🔍: Cruising Along with Java: Benefiting from the Modern Features
@@ -1503,7 +1503,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/cruising-along-with-java-benefi
  r><br>Keywords:<br>Cruising<br>Java<br>Modern<br>Features<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3204-the-joy-of-testing@cfp.dev
 SUMMARY:🔍: The Joy of Testing
 DTSTART;TZID=Europe/Brussels:20241008T133000
@@ -1524,7 +1524,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/the-joy-of-testing">Deep Dive -
  ectMother<br>Gherkin<br>Mutation Testing<br>Testing Techniques<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3207-create-ai-infused-apps-with-langchain4j-insights-from-the-quarkus-
  developers@cfp.dev
 SUMMARY:💻: Create AI-Infused Apps with LangChain4j: Insights from the Quar
@@ -1566,7 +1566,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/create-ai-infused-apps-with-lan
  n4j<br>Java Applications<br>Quarkus<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3208-refactoring-your-application-to-data-oriented-programming@cfp.dev
 SUMMARY:💻: Refactoring your Application to Data Oriented Programming
 DTSTART;TZID=Europe/Brussels:20241008T133000
@@ -1587,7 +1587,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/refactoring-your-application-to
  s<br>Data Oriented Programming<br>Application<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3209-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241008T163000
@@ -1596,7 +1596,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3211-asyncapi-springwolf-automated-documentation-and-more@cfp.dev
 SUMMARY:🛠: AsyncAPI & Springwolf - Automated documentation (and more)
 DTSTART;TZID=Europe/Brussels:20241008T165000
@@ -1620,7 +1620,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/asyncapi-springwolf-automated-d
  on Automation<br>Event-Driven APIs<br>AsyncAPI<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3213-a-free-alternative-to-docker-podman@cfp.dev
 SUMMARY:🛠: A Free Alternative to Docker: Podman
 DTSTART;TZID=Europe/Brussels:20241008T165000
@@ -1646,7 +1646,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/a-free-alternative-to-docker-po
  man<br>Kubernetes<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3214-unpoly-single-page-experience-with-server-side-rendering@cfp.dev
 SUMMARY:🛠: Unpoly - Single Page Experience with Server-Side Rendering
 DTSTART;TZID=Europe/Brussels:20241008T165000
@@ -1667,7 +1667,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/unpoly-single-page-experience-w
  ncement<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3210-devoxxgenie-your-ai-assistant-for-idea@cfp.dev
 SUMMARY:🛠: DevoxxGenie: Your AI Assistant for IDEA
 DTSTART;TZID=Europe/Brussels:20241008T165000
@@ -1709,7 +1709,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/devoxxgenie-your-ai-assistant-f
  >AI-powered tools<br>Large Language Models (LLM)<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3212-a-better-jupyter-experience-for-java-developers-jtaccuino-unveiled
  @cfp.dev
 SUMMARY:🛠: A better Jupyter Experience for Java Developers - JTaccuino unv
@@ -1747,7 +1747,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/a-better-jupyter-experience-for
  br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3229-master-speech-ai-apis-to-enhance-your-applications@cfp.dev
 SUMMARY:💻: Master Speech AI APIs to enhance your applications!
 DTSTART;TZID=Europe/Brussels:20241008T165000
@@ -1776,7 +1776,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/master-speech-ai-apis-to-enhanc
  ds:<br>Speech-To-Text<br>APIs<br>Text-To-Speech<br>Speech AI<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3230-putting-ai-into-real-time-etl-with-apache-flink-debezium-and-langc
  hain4j@cfp.dev
 SUMMARY:💻: Putting AI Into Real-time ETL with Apache Flink\, Debezium\, an
@@ -1811,7 +1811,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/putting-ai-into-real-time-etl-w
  eal-time ETL<br>Data Pipelines<br>Langchain4j<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3215-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241008T172000
@@ -1820,7 +1820,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3219-your-frontend-is-let-s-measure-its-impact-with-co2-js@cfp.dev
 SUMMARY:🛠: Your frontend is ☠️ ⚠️ Let's measure its impact with CO2.js
 DTSTART;TZID=Europe/Brussels:20241008T173500
@@ -1852,7 +1852,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/your-frontend-is-let-s-measure-
  n<br>CO2 Emissions<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3220-harmonizing-code-and-melody-making-electronical-music-in-a-matter-
  of-speaking@cfp.dev
 SUMMARY:🛠: Harmonizing Code and Melody: making electronical music in a mat
@@ -1884,7 +1884,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/harmonizing-code-and-melody-mak
  <br>Sonic Pi<br>MusicAgent<br>Music Creation<br>Multi-Agent System<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3216-my-digital-twin-fine-tuning-llama-3-with-personal-chat-history@cfp
  .dev
 SUMMARY:🛠: My Digital Twin: Fine-tuning LLaMA 3 with Personal Chat History
@@ -1909,7 +1909,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/my-digital-twin-fine-tuning-lla
  tsApp data<br>Fine-Tuning<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3218-es-ql-ftw@cfp.dev
 SUMMARY:🛠: ES|QL FTW!
 DTSTART;TZID=Europe/Brussels:20241008T173500
@@ -1931,7 +1931,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/es-ql-ftw">Tools-in-Action - Ja
  words:<br>Project Valhalla<br>Java<br>NoSQL<br>ES|QL<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3217-unlocking-seamless-collaboration-design-first-apis-for-components@
  cfp.dev
 SUMMARY:🛠: Unlocking Seamless Collaboration: Design-First APIs for Compone
@@ -1960,7 +1960,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/unlocking-seamless-collaboratio
  ents<br>Design-first Thinking<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3221-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241008T180500
@@ -1969,7 +1969,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3223-endpoint-versioning-made-simple@cfp.dev
 SUMMARY:🛠: Endpoint versioning made simple
 DTSTART;TZID=Europe/Brussels:20241008T182000
@@ -1992,7 +1992,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/endpoint-versioning-made-simple
  ng Boot<br>URI Path<br>Library Creation<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3222-outsmarting-the-energy-grid-with-ai@cfp.dev
 SUMMARY:🛠: Outsmarting the energy grid with AI
 DTSTART;TZID=Europe/Brussels:20241008T182000
@@ -2021,7 +2021,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/outsmarting-the-energy-grid-wit
  y management<br>Serverless Environment<br>AWS Lambda<br>Data-Driven<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3225-monitoring-java-application-security-with-jdk-tools-and-jfr-events
  @cfp.dev
 SUMMARY:🛠: Monitoring Java Application Security with JDK tools and JFR Eve
@@ -2046,7 +2046,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/monitoring-java-application-sec
  tion security<br>X.509 certificates<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3224-building-resilient-applications-with-durable-execution@cfp.dev
 SUMMARY:🛠: Building resilient applications with Durable Execution
 DTSTART;TZID=Europe/Brussels:20241008T182000
@@ -2072,7 +2072,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/building-resilient-applications
  ns<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3226-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241008T185000
@@ -2081,7 +2081,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3227-the-java-community-is-life-changing@cfp.dev
 SUMMARY:💬: The Java Community is Life-Changing!
 DTSTART;TZID=Europe/Brussels:20241008T190500
@@ -2105,7 +2105,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/the-java-community-is-life-chan
  r>#MovedByJava<br>Java<br>Careers<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3228-java-language-pattern-matching-puzzlers@cfp.dev
 SUMMARY:💬: Java Language Pattern Matching Puzzlers
 DTSTART;TZID=Europe/Brussels:20241008T190500
@@ -2129,7 +2129,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/java-language-pattern-matching-
  Enhancements<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3231-null@cfp.dev
 SUMMARY:🍳: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241009T083000
@@ -2138,7 +2138,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:34201-genesis-keynote@cfp.dev
 SUMMARY:💬: Genesis Keynote
 DTSTART;TZID=Europe/Brussels:20241009T093000
@@ -2152,7 +2152,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/genesis-keynote">Keynote - Data
  e<br>Keynote<br>Techniques<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:34802-postcards-from-the-peak-of-complexity@cfp.dev
 SUMMARY:💬: Postcards from the Peak of Complexity
 DTSTART;TZID=Europe/Brussels:20241009T102500
@@ -2170,7 +2170,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/postcards-from-the-peak-of-comp
  >147<br><br>Keywords:<br>Language<br>Abstract<br>Java<br>Update<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3233-platforms-build-abstractions-not-illusions@cfp.dev
 SUMMARY:💬: Platforms: Build abstractions\, not illusions
 DTSTART;TZID=Europe/Brussels:20241009T105000
@@ -2190,7 +2190,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/platforms-build-abstractions-no
  Complexity<br>Productivity<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:34801-null@cfp.dev
 SUMMARY:☕: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241009T113500
@@ -2199,7 +2199,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3236-enabling-teams-for-happier-and-more-productive-engineers@cfp.dev
 SUMMARY:📋: Enabling teams for happier and more productive engineers
 DTSTART;TZID=Europe/Brussels:20241009T120000
@@ -2226,7 +2226,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/enabling-teams-for-happier-and-
  tress<br>Teams  <br>Enabling  <br>Productivity<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3238-crafting-intelligent-github-bots@cfp.dev
 SUMMARY:📋: Crafting intelligent GitHub Bots
 DTSTART;TZID=Europe/Brussels:20241009T120000
@@ -2251,7 +2251,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/crafting-intelligent-github-bot
  words:<br>Large Language Models<br>GitHub<br>Workflows<br>Quarkus<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3239-ai-powered-development-hands-on-techniques-for-immediate-impact@cf
  p.dev
 SUMMARY:📋: AI-Powered Development: Hands-On Techniques for Immediate Impac
@@ -2273,7 +2273,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/ai-powered-development-hands-on
  3<br><br>Keywords:<br>LLMs<br>AI<br>Java<br>Integration<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3237-software-archaeology-learning-from-the-landing-on-the-moon@cfp.dev
 SUMMARY:📋: Software archaeology - Learning from the landing on the moon!
 DTSTART;TZID=Europe/Brussels:20241009T120000
@@ -2301,7 +2301,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/software-archaeology-learning-f
  e robustness<br>Apollo Guidance Computer<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3240-open-sourcing-a-library-how-hard-can-that-be@cfp.dev
 SUMMARY:📋: Open sourcing a library: how hard can that be?
 DTSTART;TZID=Europe/Brussels:20241009T120000
@@ -2329,7 +2329,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/open-sourcing-a-library-how-har
  oject Sustainability<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3241-jakarta-data-and-jakarta-persistence@cfp.dev
 SUMMARY:📋: Jakarta Data and Jakarta Persistence
 DTSTART;TZID=Europe/Brussels:20241009T120000
@@ -2345,7 +2345,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/jakarta-data-and-jakarta-persis
  rta Persistence 3.2<br>Typesafe programming<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3243-the-cycling-tour-java-s-fraught-relationship-with-cyclic-object-gr
  aphs@cfp.dev
 SUMMARY:📋: The Cycling Tour – Java's Fraught Relationship with Cyclic Obje
@@ -2380,7 +2380,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/the-cycling-tour-java-s-fraught
  ect graph<br>Java Serialization<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3242-empathic-mentoring-for-developers-why-should-you-care-and-how@cfp.
  dev
 SUMMARY:📋: Empathic Mentoring for Developers - Why Should You Care\, and H
@@ -2404,7 +2404,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/empathic-mentoring-for-develope
  oups<br>Empathy<br>Mentoring<br>Trust<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3244-null@cfp.dev
 SUMMARY:🍴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241009T125000
@@ -2413,7 +2413,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:23862-quiz-what-do-you-know-about-java-compiler-optimizations@cfp.dev
 SUMMARY:💬: Quiz: What do you know about java compiler optimizations?
 DTSTART;TZID=Europe/Brussels:20241009T125500
@@ -2436,7 +2436,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/quiz-what-do-you-know-about-jav
  ompilers<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3249-from-uncertainty-to-success-how-an-agile-mindset-changed-everythin
  g@cfp.dev
 SUMMARY:🍴: From Uncertainty to Success: How An Agile Mindset Changed Every
@@ -2465,7 +2465,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/from-uncertainty-to-success-how
  urites:<br>2<br><br>Keywords:<br>TBA<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3248-lgtm-prepping-a-mature-open-source-project-for-graalvm@cfp.dev
 SUMMARY:🍴: LGTM: Prepping a Mature Open-Source Project for GraalVM
 DTSTART;TZID=Europe/Brussels:20241009T130000
@@ -2484,7 +2484,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/lgtm-prepping-a-mature-open-sou
  r>Platform<br>Technical<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3247-the-pearls-and-pitfalls-of-datetime@cfp.dev
 SUMMARY:🍴: The Pearls and Pitfalls of DateTime
 DTSTART;TZID=Europe/Brussels:20241009T130000
@@ -2516,7 +2516,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/the-pearls-and-pitfalls-of-date
  br>Date Forensics<br>Java<br>API<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3245-building-ai-agents-with-shell-scripts@cfp.dev
 SUMMARY:🍴: Building Ai Agents with Shell Scripts
 DTSTART;TZID=Europe/Brussels:20241009T130000
@@ -2544,7 +2544,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/building-ai-agents-with-shell-s
  hell<br>Shell<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3246-maven-marvels-project-generation-at-warp-speed@cfp.dev
 SUMMARY:🍴: Maven Marvels: Project Generation at Warp Speed
 DTSTART;TZID=Europe/Brussels:20241009T130000
@@ -2570,7 +2570,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/maven-marvels-project-generatio
  >Application Development<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3250-architecting-for-tomorrow-a-pragmatic-perspective@cfp.dev
 SUMMARY:🍴: Architecting for Tomorrow: A Pragmatic Perspective
 DTSTART;TZID=Europe/Brussels:20241009T130000
@@ -2595,7 +2595,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/architecting-for-tomorrow-a-pra
  ing<br>Elsa Mindset<br>Effective Communication<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3601-will-ai-assistant-make-developers-redundant@cfp.dev
 SUMMARY:🍴: Will AI Assistant make developers redundant?
 DTSTART;TZID=Europe/Brussels:20241009T130000
@@ -2614,7 +2614,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/will-ai-assistant-make-develope
  nt<br>LLMs<br>IntelliJ IDEA<br>Coding Workflow<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3602-the-chameleon-architect@cfp.dev
 SUMMARY:🍴: The Chameleon Architect
 DTSTART;TZID=Europe/Brussels:20241009T130000
@@ -2644,7 +2644,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/the-chameleon-architect">Lunch
  >Digital Transformation<br>Software Architect<br>Agility<br>Innovation<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3604-building-managing-container-images-at-scale-with-cloud-native-buil
  dpacks@cfp.dev
 SUMMARY:📋: Building & Managing Container Images at Scale with Cloud Native 
@@ -2676,7 +2676,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/building-managing-container-ima
  1<br><br>Keywords:<br>Caching<br>Scalable<br>Buildpacks<br>Container<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3603-how-javascript-happened-a-short-history-of-programming-languages@c
  fp.dev
 SUMMARY:📋: How JavaScript Happened: A Short History of Programming Languag
@@ -2700,7 +2700,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/how-javascript-happened-a-short
  mittees<br>Computer Internals<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3607-pattern-matching-in-java-past-present-future@cfp.dev
 SUMMARY:📋: Pattern Matching in Java: Past\, Present\, Future
 DTSTART;TZID=Europe/Brussels:20241009T140000
@@ -2719,7 +2719,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/pattern-matching-in-java-past-p
  rn matching<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3608-transforming-banking-with-advanced-ai-genai-rag-and-multi-agent-sy
  stems@cfp.dev
 SUMMARY:📋: Transforming Banking with Advanced AI: GenAI\, RAG\, and Multi-
@@ -2750,7 +2750,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/transforming-banking-with-advan
  >GenAI<br>Innovation<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3606-migrating-spring-boot-apps-to-graalvm@cfp.dev
 SUMMARY:📋: Migrating Spring Boot apps to GraalVM
 DTSTART;TZID=Europe/Brussels:20241009T140000
@@ -2772,7 +2772,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/migrating-spring-boot-apps-to-g
  ormance Improvement<br>Migration<br>Spring Boot<br>Native Images<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3605-top-rest-api-design-pitfalls@cfp.dev
 SUMMARY:📋: Top REST API Design Pitfalls
 DTSTART;TZID=Europe/Brussels:20241009T140000
@@ -2788,7 +2788,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/top-rest-api-design-pitfalls">C
  br>110<br><br>Keywords:<br>CQRS<br>Performance<br>SemVer<br>API design<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3609-kotlin-2-0-and-beyond@cfp.dev
 SUMMARY:📋: Kotlin 2.0 and beyond
 DTSTART;TZID=Europe/Brussels:20241009T140000
@@ -2812,7 +2812,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/kotlin-2-0-and-beyond">Conferen
  iplatform<br>Compiler K2<br>Design Proposals<br>Kotlin 2.0<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3610-spring-ai-seamlessly-integrating-ai-into-your-enterprise-java-appl
  ications@cfp.dev
 SUMMARY:📋: Spring AI: Seamlessly Integrating AI into Your Enterprise Java 
@@ -2846,7 +2846,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/spring-ai-seamlessly-integratin
  AI Integration<br>RAG pattern<br>Spring AI<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3611-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241009T145000
@@ -2855,7 +2855,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3612-dataframe-kotlin-s-innovative-approach-to-data-structures@cfp.dev
 SUMMARY:📋: DataFrame: Kotlin's Innovative Approach to Data Structures
 DTSTART;TZID=Europe/Brussels:20241009T151000
@@ -2883,7 +2883,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/dataframe-kotlin-s-innovative-a
  br>Kotlin Notebook<br>Data Analytics<br>Dataframe<br>Compiler Plugin<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3613-code-security-reinvented-navigating-the-era-of-ai@cfp.dev
 SUMMARY:📋: Code Security Reinvented: Navigating the era of AI
 DTSTART;TZID=Europe/Brussels:20241009T151000
@@ -2909,7 +2909,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/code-security-reinvented-naviga
  pment<br>GitHub Copilot<br>Artificial Intelligence<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3614-tdd-generative-ai-a-perfect-pairing@cfp.dev
 SUMMARY:📋: TDD & generative AI - a perfect pairing?
 DTSTART;TZID=Europe/Brussels:20241009T151000
@@ -2930,7 +2930,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/tdd-generative-ai-a-perfect-pai
  Development<br>Live Coding<br>Paradigm Shift<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3617-exo-run-your-own-ai-cluster-at-home@cfp.dev
 SUMMARY:📋: Exo: Run your own AI cluster at home
 DTSTART;TZID=Europe/Brussels:20241009T151000
@@ -2951,7 +2951,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/exo-run-your-own-ai-cluster-at-
  tes:<br>14<br><br>Keywords:<br>Exo<br>AI<br>Computational<br>Cluster<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3616-supercharge-your-java-applications-with-python@cfp.dev
 SUMMARY:📋: Supercharge your Java Applications with Python!
 DTSTART;TZID=Europe/Brussels:20241009T151000
@@ -2988,7 +2988,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/supercharge-your-java-applicati
  ython<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3615-bootiful-spring-boot-3-x@cfp.dev
 SUMMARY:📋: Bootiful Spring Boot 3.x
 DTSTART;TZID=Europe/Brussels:20241009T151000
@@ -3008,7 +3008,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/bootiful-spring-boot-3-x">Confe
  br><br>Keywords:<br>Spring Boot<br>GraalVM<br>Project Loom<br>Java 21<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3618-unleashing-the-power-of-angular-navigating-the-latest-releases-and
  -transformations@cfp.dev
 SUMMARY:📋: Unleashing the power of Angular: Navigating the latest releases 
@@ -3043,7 +3043,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/unleashing-the-power-of-angular
  ation<br>Angular technology<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3619-the-current-state-of-apache-maven-4-development@cfp.dev
 SUMMARY:📋: The Current State of Apache Maven 4 - Development
 DTSTART;TZID=Europe/Brussels:20241009T151000
@@ -3067,7 +3067,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/the-current-state-of-apache-mav
  br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3620-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241009T160000
@@ -3076,7 +3076,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3622-from-science-fiction-to-garage-science-my-journey-building-a-farns
  worth-fusor-with-ai@cfp.dev
 SUMMARY:📋: From Science Fiction to Garage Science: My Journey Building a F
@@ -3100,7 +3100,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/from-science-fiction-to-garage-
  br>Fusor<br>Fusion<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3621-indispensable-principles-of-crafting-complex-interfaces@cfp.dev
 SUMMARY:📋: Indispensable Principles of Crafting Complex Interfaces
 DTSTART;TZID=Europe/Brussels:20241009T164000
@@ -3120,7 +3120,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/indispensable-principles-of-cra
  r>Interface Design<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3625-devops-for-java-developers-or-maybe-against-them@cfp.dev
 SUMMARY:📋: DevOps for Java Developers (or maybe against them?!)
 DTSTART;TZID=Europe/Brussels:20241009T164000
@@ -3146,7 +3146,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/devops-for-java-developers-or-m
  s<br>Deployment tools<br>DevOps<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3623-pushing-llms-over-the-edge-exploring-the-limits-of-the-possible@cf
  p.dev
 SUMMARY:📋: Pushing LLMs over the Edge: Exploring the Limits of the Possibl
@@ -3168,7 +3168,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/pushing-llms-over-the-edge-expl
  <br>Keywords:<br>Prompt injection<br>LLMs<br>Langchain4j<br>Quarkus<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3626-looking-at-music-an-experiment-with-kotlin-javafx-midi-and-virtual
  -threads@cfp.dev
 SUMMARY:📋: Looking at Music\, an experiment with Kotlin\, JavaFX\, MIDI\, 
@@ -3195,7 +3195,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/looking-at-music-an-experiment-
  tin<br>Music-Playing Son<br>Nerdy Dad<br>Virtual Threads<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3624-serialization-a-new-hope@cfp.dev
 SUMMARY:📋: Serialization: A New Hope
 DTSTART;TZID=Europe/Brussels:20241009T164000
@@ -3216,7 +3216,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/serialization-a-new-hope">Confe
  Objects<br>Java Serialization<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3627-replacing-the-gearbox-while-driving-down-the-motorway@cfp.dev
 SUMMARY:📋: Replacing the Gearbox (while Driving Down the Motorway)
 DTSTART;TZID=Europe/Brussels:20241009T164000
@@ -3242,7 +3242,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/replacing-the-gearbox-while-dri
  stem<br>Spring Boot<br>Upgrading Systems<br>Apache Causeway<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3628-practical-graphrag-making-llms-smarter-with-knowledge-graphs@cfp.d
  ev
 SUMMARY:📋: Practical GraphRAG - Making LLMs smarter with Knowledge Graphs
@@ -3266,7 +3266,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/practical-graphrag-making-llms-
  r>Neo4j and LangChain<br>GraphRAG Approach<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3629-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241009T173000
@@ -3275,7 +3275,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3631-open-models-the-secret-weapon-for-next-generation-software@cfp.dev
 SUMMARY:📋: Open Models: The Secret Weapon for Next-Generation Software
 DTSTART;TZID=Europe/Brussels:20241009T175000
@@ -3305,7 +3305,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/open-models-the-secret-weapon-f
  a<br>Open-source AI models<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3633-be-my-eyes-leveraging-generative-ai-to-help-the-blind-and-visually
  -impaired-people@cfp.dev
 SUMMARY:📋: Be My Eyes - Leveraging Generative AI to help the blind and vis
@@ -3333,7 +3333,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/be-my-eyes-leveraging-generativ
  puter vision<br>Generative AI<br>Text-to-speech model<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3632-project-leyden-improving-java-s-startup-time@cfp.dev
 SUMMARY:📋: Project Leyden: Improving Java’s Startup Time
 DTSTART;TZID=Europe/Brussels:20241009T175000
@@ -3352,7 +3352,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/project-leyden-improving-java-s
  >Project Leyden<br>Java Applications<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3630-hello-quantum-world@cfp.dev
 SUMMARY:📋: Hello\, Quantum World!
 DTSTART;TZID=Europe/Brussels:20241009T175000
@@ -3383,7 +3383,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/hello-quantum-world">Conference
  tum Computers<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3634-the-state-of-server-side-java-webapps@cfp.dev
 SUMMARY:📋: The State of Server Side Java Webapps
 DTSTART;TZID=Europe/Brussels:20241009T175000
@@ -3408,7 +3408,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/the-state-of-server-side-java-w
  behaviours<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3635-thinking-like-an-architect@cfp.dev
 SUMMARY:📋: Thinking Like an Architect
 DTSTART;TZID=Europe/Brussels:20241009T175000
@@ -3427,7 +3427,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/thinking-like-an-architect">Con
  chitects<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3636-lean-spring-boot-applications-for-the-cloud@cfp.dev
 SUMMARY:📋: Lean Spring Boot Applications for the Cloud 
 DTSTART;TZID=Europe/Brussels:20241009T175000
@@ -3449,7 +3449,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/lean-spring-boot-applications-f
  br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3637-sky-guardians-revolutionizing-wildlife-monitoring-with-drones-and-
  iot@cfp.dev
 SUMMARY:📋: Sky Guardians: Revolutionizing Wildlife Monitoring with Drones 
@@ -3472,7 +3472,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/sky-guardians-revolutionizing-w
  br>Ecological studies<br>Wildlife monitoring<br>Sensor technology<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3638-null@cfp.dev
 SUMMARY:👫: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241009T183000
@@ -3481,7 +3481,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3639-getting-started-with-speaking@cfp.dev
 SUMMARY:💬: Getting started with speaking
 DTSTART;TZID=Europe/Brussels:20241009T190000
@@ -3501,7 +3501,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/getting-started-with-speaking">
  r>Successful Speaker<br>Presentation Preparation<br>Technical Events<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3640-quarkus-community-bof@cfp.dev
 SUMMARY:💬: Quarkus Community BOF
 DTSTART;TZID=Europe/Brussels:20241009T190000
@@ -3521,7 +3521,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/quarkus-community-bof">BOF - Se
  <br><br>Keywords:<br>Community<br>Java<br>Quarkus<br>Productivity<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3641-null@cfp.dev
 SUMMARY:🍳: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241010T083000
@@ -3530,7 +3530,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3642-privacy-in-practice-with-smart-pseudonymization-lessons-from-the-b
  elgian-public-sector@cfp.dev
 SUMMARY:📋: Privacy in Practice with Smart Pseudonymization: Lessons from t
@@ -3562,7 +3562,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/privacy-in-practice-with-smart-
  ymization  <br>Cryptography  <br>Masks  <br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3645-structured-concurrency-managing-the-hierarchical-cancelation-and-e
  rror-handling@cfp.dev
 SUMMARY:📋: Structured Concurrency: Managing the Hierarchical Cancelation a
@@ -3586,7 +3586,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/structured-concurrency-managing
  Keywords:<br>Kotlin<br>Java<br>Scoped Values<br>Structured Concurrency<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3643-squeezing-mushrooms-into-bytes-mario-s-nes-memory-magic@cfp.dev
 SUMMARY:📋: Squeezing Mushrooms into Bytes : Mario's NES Memory Magic
 DTSTART;TZID=Europe/Brussels:20241010T093000
@@ -3606,7 +3606,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/squeezing-mushrooms-into-bytes-
  iques<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3646-internationalization-puzzles-or-how-to-gamify-a-training@cfp.dev
 SUMMARY:📋: Internationalization puzzles – or how to gamify a training.
 DTSTART;TZID=Europe/Brussels:20241010T093000
@@ -3634,7 +3634,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/internationalization-puzzles-or
  rogrammers<br>Internationalization Concepts<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3644-http-3-and-quic-who-what-where-when-and-why@cfp.dev
 SUMMARY:📋: HTTP/3 and QUIC: Who\, what\, where\, when and\, WHY?
 DTSTART;TZID=Europe/Brussels:20241010T093000
@@ -3661,7 +3661,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/http-3-and-quic-who-what-where-
  >Security features<br>QUIC protocols<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3647-if-streams-are-so-great-let-s-use-them-everywhere-right@cfp.dev
 SUMMARY:📋: If Streams Are So Great\, Let’s Use Them Everywhere... Right??
 DTSTART;TZID=Europe/Brussels:20241010T093000
@@ -3684,7 +3684,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/if-streams-are-so-great-let-s-u
  :<br>Bulk data processing<br>Java<br>Old-fashioned ways<br>Streams<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3648-deep-dive-into-modern-frameworks-reactivity@cfp.dev
 SUMMARY:📋: Deep dive into modern frameworks Reactivity🔬⚛️
 DTSTART;TZID=Europe/Brussels:20241010T093000
@@ -3706,7 +3706,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/deep-dive-into-modern-framework
  >Future of Angular<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3649-what-is-multimodal-rag-and-can-we-build-a-village-with-it@cfp.dev
 SUMMARY:📋: What is multimodal RAG\, and can we build a village with it?
 DTSTART;TZID=Europe/Brussels:20241010T093000
@@ -3738,7 +3738,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/what-is-multimodal-rag-and-can-
  al Retrieval-Augmented Generation (RAG)<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3650-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241010T102000
@@ -3747,7 +3747,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3652-introducing-code-assist-build-applications-faster-with-ai@cfp.dev
 SUMMARY:📋: Introducing Code Assist: Build Applications Faster with AI
 DTSTART;TZID=Europe/Brussels:20241010T104000
@@ -3764,7 +3764,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/introducing-code-assist-build-a
  s:<br>12<br><br>Keywords:<br>AI<br>Oracle<br>Code<br>Java<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3654-jvm-in-the-age-of-ai-babylon-valhalla-tornadovm-and-friends@cfp.de
  v
 SUMMARY:📋: JVM in the Age of AI: Babylon\, Valhalla\, TornadoVM and friend
@@ -3789,7 +3789,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/jvm-in-the-age-of-ai-babylon-va
  nadoVM<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3653-testing-done-right-from-bugs-to-brilliance@cfp.dev
 SUMMARY:📋: Testing done right: From bugs to brilliance
 DTSTART;TZID=Europe/Brussels:20241010T104000
@@ -3820,7 +3820,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/testing-done-right-from-bugs-to
  Tests<br>Testing Pyramid<br>Testing Trophy<br>Code Quality<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3651-core-web-vitals-how-to-make-your-angular-app-feel-like-a-dream@cfp
  .dev
 SUMMARY:📋: Core Web Vitals: How to make your angular app feel like a dream
@@ -3844,7 +3844,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/core-web-vitals-how-to-make-you
  br>Optimization Techniques<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3656-avoiding-career-pitfalls-a-well-grounded-software-engineer@cfp.dev
 SUMMARY:📋: Avoiding career pitfalls — A well-grounded software engineer
 DTSTART;TZID=Europe/Brussels:20241010T104000
@@ -3873,7 +3873,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/avoiding-career-pitfalls-a-well
  <br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3655-hunting-with-stream-gatherers@cfp.dev
 SUMMARY:📋: Hunting with Stream Gatherers
 DTSTART;TZID=Europe/Brussels:20241010T104000
@@ -3898,7 +3898,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/hunting-with-stream-gatherers">
  Streams<br>Stream Gatherers<br>Java 8<br>Data processing<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3657-accelerating-performance-of-java-applications-on-arm64@cfp.dev
 SUMMARY:📋: Accelerating performance of Java applications on Arm64
 DTSTART;TZID=Europe/Brussels:20241010T104000
@@ -3938,7 +3938,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/accelerating-performance-of-jav
  perating System Tuning<br>JVM Configuration<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3658-elevating-developer-experience-and-productivity-with-platform-engi
  neering@cfp.dev
 SUMMARY:📋: Elevating Developer Experience and Productivity with Platform E
@@ -3974,7 +3974,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/elevating-developer-experience-
  Engineering<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3659-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241010T113000
@@ -3983,7 +3983,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3660-welcome-to-the-ai-jungle-now-what@cfp.dev
 SUMMARY:📋: Welcome to the AI jungle! Now what?
 DTSTART;TZID=Europe/Brussels:20241010T115000
@@ -4013,7 +4013,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/welcome-to-the-ai-jungle-now-wh
  tes<br>Java<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3665-build-smarter-knowledge-management-systems-with-ai-technology@cfp.
  dev
 SUMMARY:📋: Build Smarter Knowledge Management Systems with AI Technology
@@ -4052,7 +4052,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/build-smarter-knowledge-managem
  agement Systems<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3661-generic-or-specific-making-sensible-software-design-decisions@cfp.
  dev
 SUMMARY:📋: Generic or Specific? Making sensible software design decisions 
@@ -4079,7 +4079,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/generic-or-specific-making-sens
  Design<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3662-reading-code@cfp.dev
 SUMMARY:📋: Reading code
 DTSTART;TZID=Europe/Brussels:20241010T115000
@@ -4101,7 +4101,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/reading-code">Conference - Deve
  br>Readability<br>Code Reading<br>Deliberate Practice<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3663-evaluating-open-source-local-llms-a-comparative-analysis-with-prop
  rietary-giants-for-developer-applications@cfp.dev
 SUMMARY:📋: Evaluating Open-Source Local LLMs: A Comparative Analysis with 
@@ -4125,7 +4125,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/evaluating-open-source-local-ll
  LLMs<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3664-valhalla-where-are-we@cfp.dev
 SUMMARY:📋: Valhalla - Where Are We?
 DTSTART;TZID=Europe/Brussels:20241010T115000
@@ -4142,7 +4142,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/valhalla-where-are-we">Conferen
  ords:<br>Generics<br>Java<br>Value<br>Valhalla<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3666-the-best-of-java-shorts-show-100-snippets-in-50-minutes@cfp.dev
 SUMMARY:📋: The Best of Java Shorts Show: 100 Snippets in 50 Minutes
 DTSTART;TZID=Europe/Brussels:20241010T115000
@@ -4160,7 +4160,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/the-best-of-java-shorts-show-10
  ds:<br>Java<br>Visual Studio Code<br>Shell Script<br>HTTP Dev Server<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3667-panel-discussion-langchain4j-a-year-later@cfp.dev
 SUMMARY:📋: Panel Discussion: LangChain4j\, a year later.
 DTSTART;TZID=Europe/Brussels:20241010T115000
@@ -4181,7 +4181,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/panel-discussion-langchain4j-a-
  br>Panel Discussion<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3668-null@cfp.dev
 SUMMARY:🍴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241010T124000
@@ -4190,7 +4190,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:23863-the-java-pub-quiz@cfp.dev
 SUMMARY:💬: The Java Pub Quiz
 DTSTART;TZID=Europe/Brussels:20241010T124500
@@ -4209,7 +4209,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/the-java-pub-quiz">BOF - Java -
  r>Prizes<br>Participants<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3676-beyond-rest-using-full-stack-signals-for-real-time-reactive-uis@cf
  p.dev
 SUMMARY:🍴: Beyond REST: Using Full-Stack Signals for Real-Time Reactive UI
@@ -4237,7 +4237,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/beyond-rest-using-full-stack-si
  Data<br>Real-time Updates<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3675-automated-accessibility-testing@cfp.dev
 SUMMARY:🍴: Automated Accessibility Testing
 DTSTART;TZID=Europe/Brussels:20241010T125000
@@ -4259,7 +4259,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/automated-accessibility-testing
  br>digital accessibility<br>EU laws<br>automated testing<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3674-crafting-intelligent-applications-with-quarkus-langchain4j@cfp.dev
 SUMMARY:🍴: Crafting Intelligent Applications with Quarkus/LangChain4j
 DTSTART;TZID=Europe/Brussels:20241010T125000
@@ -4290,7 +4290,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/crafting-intelligent-applicatio
  rse<br>Langchain4j<br>GraalVM<br>Quarkus<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3672-java-centric-web-development-the-advantages-of-a-single-stack-appr
  oach@cfp.dev
 SUMMARY:🍴: Java-Centric Web Development: The Advantages of a Single Stack 
@@ -4318,7 +4318,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/java-centric-web-development-th
  br>JavaScript<br>Frameworks<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3671-ai-and-code-quality-building-a-synergy-with-human-intelligence@cfp
  .dev
 SUMMARY:🍴: AI and Code Quality: Building a Synergy with Human Intelligence
@@ -4351,7 +4351,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/ai-and-code-quality-building-a-
  ndards<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3673-crafting-the-ultimate-docker-image-for-spring-applications@cfp.dev
 SUMMARY:🍴: Crafting the Ultimate Docker Image for Spring Applications
 DTSTART;TZID=Europe/Brussels:20241010T125000
@@ -4371,7 +4371,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/crafting-the-ultimate-docker-im
  applications<br>- Multi-stage Dockerfiles<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3669-young-minds-designing-engaging-child-friendly-tech@cfp.dev
 SUMMARY:🍴: Young Minds : Designing Engaging Child-Friendly Tech
 DTSTART;TZID=Europe/Brussels:20241010T125000
@@ -4403,7 +4403,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/young-minds-designing-engaging-
  time optimization<br>Hybrid learning approaches<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3670-data-streaming-i-don-t-even-know-her@cfp.dev
 SUMMARY:🍴: Data Streaming? I don't even know her
 DTSTART;TZID=Europe/Brussels:20241010T125000
@@ -4421,7 +4421,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/data-streaming-i-don-t-even-kno
  br>Keywords:<br>Connect<br>Confluent<br>Streaming<br>Data<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3684-oh-no-not-another-chatbot-java-and-ai-for-real-business-use-cases@
  cfp.dev
 SUMMARY:📋: Oh No\, Not Another Chatbot - Java and AI for Real Business Use 
@@ -4447,7 +4447,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/oh-no-not-another-chatbot-java-
  va<br>Azure<br>Frameworks<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3683-running-open-large-language-models-in-production-with-ollama-and-s
  erverless-gpus@cfp.dev
 SUMMARY:📋: Running open large language models in production with Ollama an
@@ -4468,7 +4468,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/running-open-large-language-mod
  Ollama<br>Deployment<br>Serverless<br>LLM<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3680-productivity-is-messing-around-and-having-fun@cfp.dev
 SUMMARY:📋: Productivity is Messing Around and Having Fun
 DTSTART;TZID=Europe/Brussels:20241010T135000
@@ -4491,7 +4491,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/productivity-is-messing-around-
  br>Productivity measurements<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3682-practical-llm-inference-in-modern-java@cfp.dev
 SUMMARY:📋: Practical LLM Inference in Modern Java
 DTSTART;TZID=Europe/Brussels:20241010T135000
@@ -4522,7 +4522,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/practical-llm-inference-in-mode
  rence<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3677-build-your-own-ev-smart-charge-solution@cfp.dev
 SUMMARY:📋: Build your own EV Smart charge solution
 DTSTART;TZID=Europe/Brussels:20241010T135000
@@ -4547,7 +4547,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/build-your-own-ev-smart-charge-
  t Operator<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3679-garbage-collection-in-java-the-progress-since-jdk-8@cfp.dev
 SUMMARY:📋: Garbage Collection in Java: The progress since JDK 8 
 DTSTART;TZID=Europe/Brussels:20241010T135000
@@ -4567,7 +4567,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/garbage-collection-in-java-the-
  ment<br>GC Algorithms<br>Garbage collection<br>Java Platform<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3681-if-dorian-gray-was-a-developer-a-call-to-action-towards-future-wel
  lbeing@cfp.dev
 SUMMARY:📋: If Dorian Gray was a developer: A call to action towards future 
@@ -4596,7 +4596,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/if-dorian-gray-was-a-developer-
  atomy<br>Computers and Programming<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3678-psst-a-sneak-peek-at-stablevalue-and-segmentmapper@cfp.dev
 SUMMARY:📋: Psst!  A Sneak Peek at StableValue and SegmentMapper
 DTSTART;TZID=Europe/Brussels:20241010T135000
@@ -4627,7 +4627,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/psst-a-sneak-peek-at-stablevalu
  s<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3685-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241010T144000
@@ -4636,7 +4636,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3692-so-you-think-you-can-mesh-scaling-ing-s-service-mesh@cfp.dev
 SUMMARY:📋: So you think you can mesh? Scaling ING's service mesh
 DTSTART;TZID=Europe/Brussels:20241010T150000
@@ -4663,7 +4663,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/so-you-think-you-can-mesh-scali
  Model<br>Service Mesh<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3693-jlama-a-native-java-llm-inference-engine@cfp.dev
 SUMMARY:📋: Jlama: A Native Java LLM inference engine
 DTSTART;TZID=Europe/Brussels:20241010T150000
@@ -4694,7 +4694,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/jlama-a-native-java-llm-inferen
  >
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3690-let-s-use-intellij-as-a-game-engine-just-because-we-can@cfp.dev
 SUMMARY:📋: Let’s use IntelliJ as a game engine\, just because we can
 DTSTART;TZID=Europe/Brussels:20241010T150000
@@ -4722,7 +4722,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/let-s-use-intellij-as-a-game-en
  xperiments<br>IntelliJ IDEA<br>Plugin Platform<br>Game Engine<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3691-test-automation-with-selenium-5-and-java@cfp.dev
 SUMMARY:📋: Test Automation with Selenium 5 and Java
 DTSTART;TZID=Europe/Brussels:20241010T150000
@@ -4765,7 +4765,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/test-automation-with-selenium-5
  rowser Automation<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3687-securing-llm-powered-applications-overcoming-security-and-privacy-
  challenges@cfp.dev
 SUMMARY:📋: Securing LLM-Powered Applications: Overcoming Security and Priv
@@ -4789,7 +4789,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/securing-llm-powered-applicatio
  owered Applications<br>Data Privacy Risks<br>Vulnerabilities<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3689-modern-java-in-action@cfp.dev
 SUMMARY:📋: Modern Java in Action
 DTSTART;TZID=Europe/Brussels:20241010T150000
@@ -4809,7 +4809,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/modern-java-in-action">Conferen
  Java (23)<br>GitHub Crawler<br>Structured Concurrency<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3688-introduction-to-quarkus-security@cfp.dev
 SUMMARY:📋: Introduction to Quarkus Security
 DTSTART;TZID=Europe/Brussels:20241010T150000
@@ -4838,7 +4838,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/introduction-to-quarkus-securit
  hitecture<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3686-1brc-nerd-sniping-the-java-community@cfp.dev
 SUMMARY:📋: 1BRC – Nerd Sniping the Java Community
 DTSTART;TZID=Europe/Brussels:20241010T150000
@@ -4862,7 +4862,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/1brc-nerd-sniping-the-java-comm
  <br>Custom Map Implementations<br>Optimized Parsing<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3694-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241010T155000
@@ -4871,7 +4871,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3696-rag-from-dumb-implementation-to-serious-results@cfp.dev
 SUMMARY:📋: RAG: from dumb implementation to serious results
 DTSTART;TZID=Europe/Brussels:20241010T163000
@@ -4903,7 +4903,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/rag-from-dumb-implementation-to
  >RAG Journey<br>Langchain4j<br>Data Lifecycle Management<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3695-modern-secure-adaptive-streaming-on-the-web@cfp.dev
 SUMMARY:📋: Modern & secure adaptive streaming on the Web
 DTSTART;TZID=Europe/Brussels:20241010T163000
@@ -4932,7 +4932,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/modern-secure-adaptive-streamin
  br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3698-15-essential-do-s-and-don-ts-with-apache-kafka@cfp.dev
 SUMMARY:📋: 15 Essential Do’s and Don’ts with Apache Kafka
 DTSTART;TZID=Europe/Brussels:20241010T163000
@@ -4956,7 +4956,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/15-essential-do-s-and-don-ts-wi
  empotency<br>Kafka<br>Schema Registry<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3697-ask-the-architect@cfp.dev
 SUMMARY:📋: Ask the Architect
 DTSTART;TZID=Europe/Brussels:20241010T163000
@@ -4971,7 +4971,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/ask-the-architect">Conference -
  ava<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3699-pure-java-enterprise-ai-llm-integration-eai-2-0@cfp.dev
 SUMMARY:📋: Pure Java Enterprise AI/LLM Integration (EAI 2.0)
 DTSTART;TZID=Europe/Brussels:20241010T163000
@@ -4990,7 +4990,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/pure-java-enterprise-ai-llm-int
  r>REST API<br>Langchain4j<br>Quarkus / MicroProfile code<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3700-breaking-and-securing-oauth-2-0-in-frontends@cfp.dev
 SUMMARY:📋: Breaking and securing OAuth 2.0 in frontends
 DTSTART;TZID=Europe/Brussels:20241010T163000
@@ -5015,7 +5015,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/breaking-and-securing-oauth-2-0
  rn<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3701-building-a-lightning-fast-firewall-with-java-ebpf@cfp.dev
 SUMMARY:📋: Building a Lightning Fast Firewall with Java & eBPF
 DTSTART;TZID=Europe/Brussels:20241010T163000
@@ -5045,7 +5045,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/building-a-lightning-fast-firew
  r>Java<br>eBPF<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3702-trash-talk-exploring-the-jvm-memory-management@cfp.dev
 SUMMARY:📋: Trash Talk - Exploring the JVM memory management
 DTSTART;TZID=Europe/Brussels:20241010T163000
@@ -5068,7 +5068,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/trash-talk-exploring-the-jvm-me
  nt<br>Garbage collection<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3703-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241010T172000
@@ -5077,7 +5077,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3710-from-ml-to-llm-on-device-ai-in-the-browser@cfp.dev
 SUMMARY:📋: From ML to LLM: on-device AI in the browser
 DTSTART;TZID=Europe/Brussels:20241010T174000
@@ -5100,7 +5100,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/from-ml-to-llm-on-device-ai-in-
  ndency<br>AI in Browser<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3709-pkl-safe-and-maintainable-config-for-java-apps-and-infrastructure@
  cfp.dev
 SUMMARY:📋: Pkl: Safe and Maintainable Config for Java Apps and Infrastruct
@@ -5121,7 +5121,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/pkl-safe-and-maintainable-confi
  >Kubernetes<br>Java<br>Pkl<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3705-a-passwordless-future-passkeys-for-java-developers@cfp.dev
 SUMMARY:📋: A Passwordless Future! Passkeys for Java Developers
 DTSTART;TZID=Europe/Brussels:20241010T174000
@@ -5148,7 +5148,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/a-passwordless-future-passkeys-
  ation<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3707-zero-waste-radical-magic-and-italian-graft-quarkus-efficiency-secr
  ets@cfp.dev
 SUMMARY:📋: Zero Waste\, Radical Magic\, and Italian Graft – Quarkus Effici
@@ -5173,7 +5173,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/zero-waste-radical-magic-and-it
  atic-but-dynamic<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3708-java-performance-update-2024@cfp.dev
 SUMMARY:📋: Java Performance Update 2024
 DTSTART;TZID=Europe/Brussels:20241010T174000
@@ -5197,7 +5197,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/java-performance-update-2024">C
  r>Keywords:<br>MergeStore<br>Java<br>JDK<br>Performance Improvements<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3711-hexagonal-architecture-in-practice-live-coding-that-will-make-your
  -applications-more-sustainable@cfp.dev
 SUMMARY:📋: Hexagonal Architecture in Practice\, Live Coding That Will Make 
@@ -5221,7 +5221,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/hexagonal-architecture-in-pract
  itecture<br>Complexity<br>Technical Debt<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3704-avoid-common-llm-pitfalls@cfp.dev
 SUMMARY:📋: Avoid common LLM pitfalls
 DTSTART;TZID=Europe/Brussels:20241010T174000
@@ -5245,7 +5245,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/avoid-common-llm-pitfalls">Conf
  ge Model<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3706-hack-your-life-firmware-and-other-tips-and-tricks@cfp.dev
 SUMMARY:📋: Hack your life firmware (and other tips and tricks)
 DTSTART;TZID=Europe/Brussels:20241010T174000
@@ -5276,7 +5276,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/hack-your-life-firmware-and-oth
  ization<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3712-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241010T183000
@@ -5285,7 +5285,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3713-programming-s-greatest-mistakes@cfp.dev
 SUMMARY:💬: Programming’s Greatest Mistakes
 DTSTART;TZID=Europe/Brussels:20241010T185000
@@ -5304,7 +5304,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/programming-s-greatest-mistakes
  istory<br>Cost<br>Web development<br>Code mistakes<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3714-native-image-layers-graalos-and-more-discuss-the-future-of-graalvm
  @cfp.dev
 SUMMARY:💬: Native Image Layers\, GraalOS\, and More - Discuss the Future o
@@ -5332,7 +5332,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/native-image-layers-graalos-and
  ty<br>GraalVM<br>Improvement<br>Integrations<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3715-langchain4j-community-bof@cfp.dev
 SUMMARY:💬: LangChain4j Community BOF
 DTSTART;TZID=Europe/Brussels:20241010T185000
@@ -5348,7 +5348,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/langchain4j-community-bof">BOF
  scuss<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3717-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241010T193500
@@ -5357,7 +5357,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002548Z
 UID:3716-null@cfp.dev
 SUMMARY:🎬: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241010T200000
@@ -5366,7 +5366,7 @@ LOCATION:Room 8
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002549Z
 UID:3718-null@cfp.dev
 SUMMARY:🍳: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241011T083000
@@ -5375,7 +5375,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002549Z
 UID:3719-harmonizing-code-and-melody-making-electronical-music-in-a-matter-
  of-speaking@cfp.dev
 SUMMARY:📋: Harmonizing Code and Melody: making electronical music in a mat
@@ -5405,7 +5405,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/harmonizing-code-and-melody-mak
  <br>Music Creation<br>Multi-Agent System<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002549Z
 UID:3720-continuations-the-magic-behind-virtual-threads-in-java@cfp.dev
 SUMMARY:📋: Continuations: The magic behind virtual threads in Java
 DTSTART;TZID=Europe/Brussels:20241011T093000
@@ -5431,7 +5431,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/continuations-the-magic-behind-
  API<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002549Z
 UID:3721-dealing-with-json-in-the-relational-world@cfp.dev
 SUMMARY:📋: Dealing with JSON in the relational world
 DTSTART;TZID=Europe/Brussels:20241011T093000
@@ -5453,7 +5453,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/dealing-with-json-in-the-relati
  ational Data<br>NoSQL<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002549Z
 UID:3723-cracking-the-code-review@cfp.dev
 SUMMARY:📋: Cracking the Code Review
 DTSTART;TZID=Europe/Brussels:20241011T093000
@@ -5480,7 +5480,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/cracking-the-code-review">Confe
  >
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002549Z
 UID:3722-a-brief-history-of-data@cfp.dev
 SUMMARY:📋: A Brief History of Data
 DTSTART;TZID=Europe/Brussels:20241011T093000
@@ -5508,7 +5508,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/a-brief-history-of-data">Confer
  -Time Data<br>Data Management Tools<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002549Z
 UID:3724-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241011T102000
@@ -5517,7 +5517,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002549Z
 UID:3725-mayday-mark-2-more-software-lessons-from-aviation-disasters@cfp.de
  v
 SUMMARY:📋: Mayday Mark 2! More Software Lessons From Aviation Disasters.
@@ -5543,7 +5543,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/mayday-mark-2-more-software-les
  e Engineering<br>Aviation Disasters<br>Project Failures<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002549Z
 UID:3727-performance-oriented-spring-data-jpa-hibernate@cfp.dev
 SUMMARY:📋: Performance oriented Spring Data JPA & Hibernate
 DTSTART;TZID=Europe/Brussels:20241011T104000
@@ -5565,7 +5565,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/performance-oriented-spring-dat
  Spring Data JPA<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002549Z
 UID:3726-words-as-weapons-the-dark-arts-of-prompt-engineering@cfp.dev
 SUMMARY:📋: Words as weapons: The dark arts of Prompt Engineering
 DTSTART;TZID=Europe/Brussels:20241011T104000
@@ -5597,7 +5597,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/words-as-weapons-the-dark-arts-
  rative AI<br>Prompt Injections<br>AI Ethics<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002549Z
 UID:3728-java-language-futures@cfp.dev
 SUMMARY:📋: Java Language Futures
 DTSTART;TZID=Europe/Brussels:20241011T104000
@@ -5612,7 +5612,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/java-language-futures">Conferen
  ure Editions<br>Evolving<br>Java Programming Language<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002549Z
 UID:3729-developer-productivity-engineering-what-s-in-it-for-me@cfp.dev
 SUMMARY:📋: Developer Productivity Engineering: What's in it for me?
 DTSTART;TZID=Europe/Brussels:20241011T104000
@@ -5641,7 +5641,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/developer-productivity-engineer
  rganizational ROI<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002549Z
 UID:3730-null@cfp.dev
 SUMMARY:😴: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241011T113000
@@ -5650,7 +5650,7 @@ LOCATION:Exhibition Hall
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002549Z
 UID:3731-project-panama-in-action-building-a-file-system@cfp.dev
 SUMMARY:📋: Project Panama in Action: Building a File System
 DTSTART;TZID=Europe/Brussels:20241011T115000
@@ -5668,7 +5668,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/project-panama-in-action-buildi
  <br>Custom File System<br>Fuse<br>Virtual Threads<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002549Z
 UID:3733-a-kafka-producer-s-request-or-there-and-back-again@cfp.dev
 SUMMARY:📋: A Kafka Producer’s Request: Or\, There and Back Again
 DTSTART;TZID=Europe/Brussels:20241011T115000
@@ -5694,7 +5694,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/a-kafka-producer-s-request-or-t
  e Analysis<br>Apache Kafka®<br>Data Movement<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002549Z
 UID:3734-love-letter-to-legacy@cfp.dev
 SUMMARY:📋: Love Letter to Legacy
 DTSTART;TZID=Europe/Brussels:20241011T115000
@@ -5718,7 +5718,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/love-letter-to-legacy">Conferen
  acy code<br>Experienced Engineers<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002549Z
 UID:3735-the-next-phase-of-project-loom-and-virtual-threads@cfp.dev
 SUMMARY:📋: The next phase of Project Loom and Virtual Threads
 DTSTART;TZID=Europe/Brussels:20241011T115000
@@ -5737,7 +5737,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/the-next-phase-of-project-loom-
  uctured Concurrency<br>Pinning issue<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002549Z
 UID:3732-model-mitosis-stop-making-the-wrong-choice-between-microservices-a
  nd-monolith@cfp.dev
 SUMMARY:📋: Model Mitosis: Stop making the wrong choice between microservic
@@ -5767,7 +5767,7 @@ DESCRIPTION:<a href="https://devoxx.be/talk/model-mitosis-stop-making-the-w
  nt<br>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241001T002207Z
+DTSTAMP:20241001T002549Z
 UID:3736-null@cfp.dev
 SUMMARY:🛫: Devoxx Belgium
 DTSTART;TZID=Europe/Brussels:20241011T124000

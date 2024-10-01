@@ -3,26 +3,23 @@
 //JAVA 17+
 //JAVAC_OPTIONS -parameters
 
-// SOURCES DevoxxCfp.java
-// Update the Quarkus version to what you want here or run jbang with
-// `-Dquarkus.version=<version>` to override it.
 //DEPS io.quarkus:quarkus-bom:${quarkus.version:3.15.1}@pom
 //DEPS io.quarkus:quarkus-rest-client
 //DEPS io.quarkus:quarkus-rest-client-jackson
 //DEPS io.quarkus:quarkus-picocli
-
 //DEPS net.sf.biweekly:biweekly:0.6.8
 
 //Q:CONFIG quarkus.banner.enabled=false
 //Q:CONFIG quarkus.log.level=WARN
 //Q:CONFIG quarkus.rest-client.devoxxcfp.url=https://dvbe24.cfp.dev
+
 import static java.lang.System.out;
+import static java.time.ZonedDateTime.parse;
+import static java.util.Date.from;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.time.ZonedDateTime;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -46,7 +43,7 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
 import picocli.CommandLine;
 
-// https://dvbe24.cfp.dev/swagger-ui/index.html
+// api docs:https://dvbe24.cfp.dev/swagger-ui/index.html
 
 @CommandLine.Command
 public class cfpdev2ics implements Runnable {
@@ -101,11 +98,8 @@ public class cfpdev2ics implements Runnable {
         vevent.setUid(event.id() + "-" + slug(event) + "@cfp.dev"); // a stable unique id
         vevent.setSummary(fullTitle(event));
 
-        var startDate = Date.from(ZonedDateTime.parse(event.fromDate()).toInstant());
-        vevent.setDateStart(startDate);
-
-        var endDate = Date.from(ZonedDateTime.parse(event.toDate()).toInstant());
-        vevent.setDateEnd(endDate);
+        vevent.setDateStart(from(parse(event.fromDate()).toInstant()));
+        vevent.setDateEnd(from(parse(event.toDate()).toInstant()));
 
         vevent.setLocation(fullLocation(event));
         vevent.setDescription(fullDescription(event));
@@ -123,6 +117,7 @@ public class cfpdev2ics implements Runnable {
         return ical;
     }
 
+    // used llm to find emojis for each session type
     public static final Map<String, String> styleIcons = new HashMap<>() {
         {
             put("Afterparty", "\uD83C\uDF89"); // 🎉
@@ -201,6 +196,10 @@ public class cfpdev2ics implements Runnable {
         }
     }
 
+    /**
+     * Rest client for the Devoxx CFP API
+     * Generated the records classes using llm.
+     */
     @Path("/api")
     @RegisterRestClient(configKey = "devoxxcfp")
     public interface DevoxxCfp {
