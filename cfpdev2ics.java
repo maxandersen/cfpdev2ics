@@ -129,7 +129,7 @@ public class cfpdev2ics implements Runnable {
         public void customize(ObjectMapper mapper) {
             // just in case to spot errors.
             // if want to optimize and only map extact fields requested, remove this.
-            mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, true);
+         //   mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, true);
         }
     }
 
