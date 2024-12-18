@@ -1,8 +1,8 @@
 name: Update ICS File
 on:
   # Trigger automatically every hour
-  schedule:
-    - cron: '0 * * * *'
+ #schedule:
+ #   - cron: '0 * * * *'
   # Trigger manually via GitHub Actions UI
   workflow_dispatch:
     inputs:
